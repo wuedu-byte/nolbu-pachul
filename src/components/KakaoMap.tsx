@@ -1,8 +1,8 @@
 import { Map, MapMarker, useKakaoLoader } from 'react-kakao-maps-sdk';
 import { Navigation } from 'lucide-react';
 
-const LAT = 37.2073;
-const LNG = 127.0326;
+const LAT = 37.2069;
+const LNG = 127.0349;
 const KAKAO_MAP_URL = `https://map.kakao.com/link/to/놀부파출,${LAT},${LNG}`;
 
 // 루트의 .env 파일에 다음을 추가하세요:
@@ -35,11 +35,19 @@ export const KakaoMap = () => {
         >
           {/* 세련된 커스텀 마커 인포윈도우 대신 기본 마커에 컨텐츠 올리기 */}
           <MapMarker position={{ lat: LAT, lng: LNG }}>
-            <div className="py-1 px-2.5 bg-white rounded-md text-xs font-bold text-slate-800 whitespace-nowrap shadow-sm">
-              놀부파출 (207호)
+            <div className="py-1 px-3 bg-white rounded-md text-sm font-bold text-slate-800 whitespace-nowrap shadow-sm">
+              놀부파출 (B동 207호)
             </div>
           </MapMarker>
         </Map>
+      </div>
+
+      {/* 크고 선명한 고딕 폰트의 지번 주소 안내 */}
+      <div className="text-center my-2 bg-slate-50 p-4 rounded-2xl shadow-sm border border-slate-100">
+        <p className="font-sans text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug word-keep-all">
+          지번 주소: 화성시 병점동 376-11번지<br />
+          써밋프라움 B동 (207호)
+        </p>
       </div>
 
       {/* 카카오맵 앱에서 길찾기 버튼 */}
