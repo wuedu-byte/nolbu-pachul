@@ -74,7 +74,7 @@ function App() {
             <div className="bg-white/60 backdrop-blur-md rounded-2xl p-4 inline-flex items-center justify-center w-full shadow-sm border border-white/50">
               <MapPin className="w-6 h-6 text-rose-500 mr-2.5 flex-shrink-0 animate-bounce" />
               <p className="text-[0.95rem] font-bold text-slate-800 tracking-tight leading-snug break-keep text-left">
-                동탄·병점·화성 전지역<br/>식당전문 인력 항시 대기!
+                병점 · 동탄 · 안녕동 · 보통리 등<br/>식당전문 인력 항시 대기!
               </p>
             </div>
           </section>
@@ -94,7 +94,7 @@ function App() {
             
             <div className="bg-slate-50 rounded-2xl p-4 mb-5 relative z-10 border border-slate-100">
               <p className="text-[0.95rem] text-slate-700 font-bold leading-relaxed break-keep">
-                주방장 · 찬모 · 홀서빙<br/>
+                홀서빙 · 주방보조 · 찬모<br/>
                 <span className="text-rose-500 text-base font-black mt-1 inline-block">즉시 투입 가능!</span>
               </p>
             </div>

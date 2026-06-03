@@ -3,7 +3,7 @@ import { Navigation } from 'lucide-react';
 
 const LAT = 37.2069;
 const LNG = 127.0349;
-const KAKAO_MAP_URL = `https://map.kakao.com/link/to/놀부파출,${LAT},${LNG}`;
+const KAKAO_MAP_URL = `https://map.kakao.com/link/to/화성시 병점동 376-11번지,${LAT},${LNG}`;
 
 // 루트의 .env 파일에 다음을 추가하세요:
 // VITE_KAKAO_MAP_API_KEY=3711182e61fccb15431de1a026640a0b
