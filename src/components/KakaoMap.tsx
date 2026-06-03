@@ -36,7 +36,7 @@ export const KakaoMap = () => {
           {/* 세련된 커스텀 마커 인포윈도우 대신 기본 마커에 컨텐츠 올리기 */}
           <MapMarker position={{ lat: LAT, lng: LNG }}>
             <div className="py-1 px-3 bg-white rounded-md text-sm font-bold text-slate-800 whitespace-nowrap shadow-sm">
-              놀부파출 (B동 207호)
+              놀부파출 B동
             </div>
           </MapMarker>
         </Map>
@@ -44,9 +44,9 @@ export const KakaoMap = () => {
 
       {/* 크고 선명한 고딕 폰트의 지번 주소 안내 */}
       <div className="text-center my-2 bg-slate-50 p-4 rounded-2xl shadow-sm border border-slate-100">
-        <p className="font-sans text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug word-keep-all">
+        <p className="text-xl md:text-2xl font-black text-slate-900 tracking-tight leading-snug break-keep">
           지번 주소: 화성시 병점동 376-11번지<br />
-          써밋프라움 B동 (207호)
+          써밋프라움 B동
         </p>
       </div>
 
